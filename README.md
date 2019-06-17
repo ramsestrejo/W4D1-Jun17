@@ -39,7 +39,11 @@ A submission has a user key
 A submission has many answers
 
 ### Solution
-A script with the solution (quiz.sql with ddl and dml) is included in the repository. 
+A script with the solution (quiz.sql with ddl and dml) is included in the repository. Before running this script follow these steps:
+1. Connect to PostgreSQL with psql command
+2. Create quiz database with CREATE DATABASE quiz;
+3. Connect to database with \c quiz
+4. Run script with \i quiz.sql
 
 ### Queries 
 
